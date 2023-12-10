@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"  data-theme="white">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="https://cdn.icon-icons.com/icons2/2108/PNG/512/javascript_icon_130900.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+
+<header>
+  <h2>Todo List</h2>
+  <img src="./img/rijksmuseum_avercamp_1620.jpg" alt="img">
+
+</header>
+    <div class="container">
+      <section>
+        <div class="todo-list">
+          <form name="addForm" class="form">
+            <input type="text" placeholder="Add Text..." name="addInput">
+            <button type="button" name="addBtn">Add</button>
+          </form>
+          <div class="filter">
+          <label>
+            Complited
+            <input type="checkbox" class="complited">
+          </label>
+          <select name="SortBy" class="SortBy">
+            <option value="DataO">Data Old</option>
+            <option value="DataN">Data New</option>
+          </select>
+          </div>
+          <ul class="list">
+          </ul>
+        </div>
+      </section>
+    </div>
+
+
+    <script src="./js/list.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
